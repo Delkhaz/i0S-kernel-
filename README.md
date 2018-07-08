@@ -1,5 +1,9 @@
-# i0S-kernel-
-11.3.1 incomplete jailbreak  
-only for Devs / must have Dev Account. 
+# multi_patch
 
-not intented for general public use. 
+11.3.1 incomplete jailbreak  
+only for Developers / must have Developer account. 
+
+not intented for general public use.
+
+## Thanks to:
+* i41nbeer - tfp0
