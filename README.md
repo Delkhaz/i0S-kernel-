@@ -8,4 +8,4 @@ not intented for general public use.
 
 ## Thanks to:
 * i41nbeer - tfp0
-* [QiLin](http://newosxbook.com/QiLin/) by Jonathan Levin
+* Morpheus______ - [QiLin](http://newosxbook.com/QiLin/)
