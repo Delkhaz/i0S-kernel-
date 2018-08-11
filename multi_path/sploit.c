@@ -18,6 +18,7 @@
 
 
 #include "QiLin.h"
+//powered by the QiLin Toolkit
 
 kern_return_t mach_vm_read(
                            vm_map_t target_task,
@@ -38,6 +39,9 @@ kern_return_t mach_vm_read_overwrite(
                                      mach_vm_size_t size,
                                      mach_vm_address_t data,
                                      mach_vm_size_t *outsize);
+
+
+uint64_t kernproc = 0xfffffff0075dd0a0;
 
 void increase_limits() {
   struct rlimit lim = {0};
@@ -967,5 +971,21 @@ void go() {
   
   // that should have cleared everything up!
   printf("done!\n");
+
+
+uint64_t kernel_dump(mach_port_t tfp0, unit64_t kernel_base) {
+	   
+	mach_host_self();
+    // 	
+  }
+
 }
 
+void jb() {
+		
+	uint64_t kernel_base; // address of kernel Mach-O + slide
+	// call QiLin with mach_port_t tfp0 and kernel_base.
+	// get slide from task address?
+	initQiLin(tfp0, kernel_base);
+	
+}
